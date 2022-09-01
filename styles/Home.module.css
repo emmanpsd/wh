@@ -1,0 +1,513 @@
+.container {
+  padding-bottom: 0rem;
+  background: black;
+font-family: 'Staatliches', cursive;
+  letter-spacing: 1px;
+    background-image: url('https://www.wafflehouse.com/wp-content/themes/wahotheme/assets/brick-wall-tile.jpg');
+   background-size: 130px;
+}
+
+.navtop{
+  height: 40px;
+  background: black;
+  color: white;
+  text-align: center;
+}
+.navtop p{
+  padding-top: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+.navtop strong{
+  color: #fff200;
+  font-weight: 600;
+}
+.nav{
+  justify-content: space-between;
+  height: 21vh;
+  padding: 0 2em;
+  background: white;
+ display: flex;
+  border-top: solid 1px #cfcfcf;
+ 
+  
+  
+}
+
+.eapps-link #text{
+  display: none;
+}
+.main {
+  
+  padding: 0;
+  margin: 0;
+
+  display: block;
+  height: 60vh;
+   
+  width: 100%;
+}
+.hero{
+
+  height: 80vh;
+   background-image: url('https://www.wafflehouse.com/wp-content/uploads/2019/03/home-slider1-desktop@2x-3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+ 
+}
+.logo{
+  height: 70px !important;
+  margin-top: 1.6em;
+}
+.buttons{
+  
+}
+.button{
+  min-width: 40%;
+  height: 55px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 13px;
+  color: white;
+  font-size: 15px;
+  box-shadow: rgba(0, 0, 0, 0.8);
+}
+.button a{
+  padding: 20px 70px;
+}
+.right{
+
+}
+.right p{
+   display: inline-block;
+  padding-left: 1.8em;
+  padding-top: 2.2em;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 900;
+  
+}
+.iframestyle{
+  border:none;
+  width:100%;
+  height:600px; 
+}
+
+
+.logo {
+  height: 1em;
+  margin-left: 0.2rem;
+  
+}
+
+.blogsec{
+  display: flex;
+  padding-top: 1em;
+  margin: 0 auto;
+  padding-bottom: 25px;
+ width: 80%;
+  
+  
+  
+}
+.blogimg{
+  height: 80%;
+  width: 98%;
+  
+  border: solid 1px #cfcfcf;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.10) 0px 10px 10px;
+}
+.blogpost{
+  margin-bottom: 40px;
+}
+.blogbtn{
+ height: 20%;
+  width: 98%;
+  border: 2px solid black;
+  background: #fff200;
+  font-family: 'Permanent Marker', cursive;
+  color: black;
+  
+  
+   font-weight: bold;
+  font-size: 18px;
+}
+.blogsec h3{
+  text-align: center;
+  font-weight: 900;
+  font-size: 18px;
+  
+}
+.breakfast{
+  
+  background-image: url('https://www.wafflehouse.com/wp-content/themes/wahotheme/assets/breakfast-favs-bg@2x.jpg');
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 2em;
+  margin-top: 5em;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.10) 0px 10px 10px;
+  
+}
+.breakfast button{
+   height: 60px;
+ 
+  width: 400px;
+  font-weight: 900;
+  font-size: 16px;
+
+  border: 2px solid black;
+  background: #fff200;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.10) 0px 10px 10px;
+  font-family: 'Permanent Marker', cursive;
+}
+.breakfast div{
+  padding-top: 5%;
+}
+.breakfast h1{
+  color: white;
+ 
+}
+.lunch h1{
+  color: white;
+}
+.lunch div{
+  padding-top: 5%;
+}
+.lunch{
+  background-image: url('https://www.wafflehouse.com/wp-content/themes/wahotheme/assets/lunch-dinner-favs-bg@2x.jpg');
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 2em;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.10) 0px 10px 10px;
+  margin-top: 10px;
+}
+.lunch button{
+    height: 60px;
+ font-family: 'Permanent Marker', cursive;
+  width: 400px;
+  font-weight: 900;
+  font-size: 16px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.10) 0px 10px 10px;
+  border: 2px solid black;
+  background: #fff200;
+}
+.record{
+  display: flex;
+  text-align: center;
+  
+  padding: 5em 3.5em;
+  
+  
+}
+.recordpercs{
+  background-image: url('https://www.wafflehouse.com/wp-content/themes/wahotheme/assets/perks-form.jpg');
+  height: 380px;
+  width: 45vw;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.10) 0px 10px 10px;
+   margin-top: 30px;
+}
+.recorddiv{
+  background-image: url('https://www.wafflehouse.com/wp-content/themes/wahotheme/assets/jukebox-mobile@2x.jpg');
+  background-size: cover;
+  height: 380px;
+  width: 45vw;
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.10) 0px 10px 10px;
+ 
+}
+
+.recordleft{
+  padding-right: 30px;
+  
+}
+.bottombar{
+  height: 25px;
+  width: 100%;
+  background: url('https://www.wafflehouse.com/wp-content/themes/wahotheme/assets/diamond-border.svg') repeat-x center center #fff200; 
+}
+.footer{
+  background: white;
+  padding: 2em 0em;
+}
+.footerleft{
+  display: flex;
+  margin-left: 2em;
+  
+}
+.footerleft p{
+  padding-left: 20px;
+  font-size: 18px;
+}
+.recordpercs form{
+  color: white;
+}
+.br{
+margin-bottom: 1em;
+
+}
+.form{
+  margin-left: 1.8em;
+  margin-right: 1.8em;
+  font-size: 1.2em;
+  padding: 1.8em;
+ 
+}
+
+.form input{
+  height: 3.4em; 
+   width: 28vw;
+}
+.form button{
+    height: 70px;
+ font-family: 'Permanent Marker', cursive;
+  width: 25vw;
+  font-weight: 900;
+  margin-top: 20px;
+  color: black;
+  font-size: 16px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.10) 0px 10px 10px;
+  border: 2px solid black;
+  background: #fff200;
+}
+.storyHero{
+    height: 60vh;
+   background-image: url('https://www.wafflehouse.com/wp-content/themes/wahotheme/assets/heros/culture/culture-hero-tablet@2x.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.storycontainer{
+  padding: 4em;
+  padding-top: 20px;
+}
+.storyh2{
+  text-align:center;
+  font-size: 35px;
+  
+}
+.storyp{
+  font-family: arial;
+  line-height: 1.7em;
+  padding-bottom: 20px;
+}
+.careersHero{
+    height: 60vh;
+   background-image: url('https://www.gannett-cdn.com/presto/2019/08/31/PTCN/448ab537-a4de-4656-a86c-cffe783b0118-Voss_WaffleHouse_009.JPG?crop=4927,2771,x0,y208&width=1600&height=800&format=pjpg&auto=webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.careerbtn{
+ height: 5em;
+  width: 98%;
+  border: 2px solid black;
+  color: black;
+  background: #fff200;
+  font-family: 'Permanent Marker', cursive;
+  
+  
+  
+   font-weight: bold;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .button{
+  min-width: 90%;
+  height: 55px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 13px;
+    
+  color: white;
+  font-size: 15px;
+  box-shadow: rgba(0, 0, 0, 0.8);
+}
+  .main {
+  min-height: 80vh;
+  padding-top: 2.3rem;
+  padding-bottom: 4rem;
+ 
+}
+  .storyHero{
+    height: 40vh;
+  }
+   .careersHero{
+    height: 40vh;
+  }
+    .storycontainer{
+      padding: 1em;
+    }
+  .right p{
+   display: inline-block;
+  padding-left: 1em;
+  padding-top: 2.2em;
+  font-size: .5em;
+  text-transform: uppercase;
+  font-weight: 900;
+  
+}
+  
+.blogsec{
+  display: block;
+  padding-top: 1em;
+  margin: 0 auto;
+  padding-bottom: 25px;
+ width: 80%;
+  
+  
+  
+}
+  .breakfast{
+  
+  background-image: url('https://www.wafflehouse.com/wp-content/themes/wahotheme/assets/breakfast-favs-bg@2x.jpg');
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 1em;
+    width: 91%;
+  margin-top: 35em;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.10) 0px 10px 10px;
+  
+}
+  
+  .lunch{
+  background-image: url('https://www.wafflehouse.com/wp-content/themes/wahotheme/assets/lunch-dinner-favs-bg@2x.jpg');
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 1em;
+     width: 91%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.10) 0px 10px 10px;
+  margin-top: 10px;
+}
+  .lunch button{
+    height: 60px;
+ font-family: 'Permanent Marker', cursive;
+  width: 200px;
+  font-weight: 900;
+  font-size: 16px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.10) 0px 10px 10px;
+  border: 2px solid black;
+  background: #fff200;
+    color: black;
+}
+  .breakfast button{
+   height: 60px;
+ 
+  width: 200px;
+  font-weight: 900;
+  font-size: 16px;
+color: black;
+  border: 2px solid black;
+  background: #fff200;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.10) 0px 10px 10px;
+  font-family: 'Permanent Marker', cursive;
+}
+  .record{
+  display: block;
+  text-align: center;
+  
+  padding: 1em 1em;
+  
+  
+}
+  .recordpercs{
+  background-image: url('https://www.wafflehouse.com/wp-content/themes/wahotheme/assets/perks-form.jpg');
+  height: 380px;
+  width: 91vw;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.10) 0px 10px 10px;
+   margin-top: 30px;
+}
+.recorddiv{
+  background-image: url('https://www.wafflehouse.com/wp-content/themes/wahotheme/assets/jukebox-mobile@2x.jpg');
+  background-size: cover;
+  height: 380px;
+  width: 91vw;
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.10) 0px 10px 10px;
+ 
+}
+  .footerleft p{
+  padding-left: 15px;
+  font-size: 8px;
+}
+  .form input{
+  height: 3.4em; 
+   width: 65vw;
+}
+.form button{
+    height: 70px;
+ font-family: 'Permanent Marker', cursive;
+  width: 65vw;
+  font-weight: 900;
+  margin-top: 20px;
+  font-size: 16px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.10) 0px 10px 10px;
+  border: 2px solid black;
+  background: #fff200;
+}
+  .form{
+  margin: 0;
+  font-size: 1.2em;
+  
+ 
+}
+  .breakfast div{
+    padding-top: 25%;
+  }
+.lunch div{
+  padding-top: 25%;
+  
+}
+  .logo{
+  height: 30px !important;
+  margin-top: 1.2em;
+}
+  .nav{
+    padding: 10px;
+    height: 79px;
+  }
+  .navtop{
+  height: 60px;
+  background: black;
+  color: white;
+  text-align: center;
+    padding-top: 20px;
+}
+  .navtop p{
+    font-size: 10px;
+    
+    padding: 0px;
+  }
+.hero{
+  height: 30vh;
+}
+}
+
